@@ -1,0 +1,529 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BeautyMirror</title>
+    <link rel="stylesheet" href="/css/base_grid.css">
+    <link rel="stylesheet" href="/css/weather.css">
+    <link rel="stylesheet" href="/css/dateNclock.css">
+    <link rel="stylesheet" href="/css/noscroll.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  </head>
+  <body>
+    <div class="grid">
+      <div id="left-top">
+          <div id="date"></div>
+          <div id="clock"></div>
+      </div>
+      <div id="center-top">
+        <!-- <div id="title">사진 촬영중</div> -->
+        <div id="call">
+          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br>
+          <br><br><br><br><br>
+
+         <div id="title">결과 진단중...</div>
+
+
+        </div>
+      </div>
+
+      <div id="bottom">
+
+
+          <br><br><br>
+       <input type="button" value="pale" onclick=
+"location.href='printcolor_pale'" style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="pale2" onclick=
+"location.href='printcolor_pale2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="pale3" onclick=
+"location.href='printcolor_pale3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="light" onclick=
+"location.href='printcolor_light'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="light2" onclick=
+"location.href='printcolor_light2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="light3" onclick=
+"location.href='printcolor_light3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+
+<input type="button" value="bright" onclick=
+"location.href='printcolor_bright'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="bright2" onclick=
+"location.href='printcolor_bright2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="bright3" onclick=
+"location.href='printcolor_bright3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+
+<input type="button" value="lightGray" onclick=
+"location.href='printcolor_lightGrayish'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="lightGray2" onclick=
+"location.href='printcolor_lightGrayish2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="lightGray3" onclick=
+"location.href='printcolor_lightGrayish3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="soft" onclick=
+"location.href='printcolor_soft'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="soft2" onclick=
+"location.href='printcolor_soft2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="soft3" onclick=
+"location.href='printcolor_soft3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+<input type="button" value="strong" onclick=
+"location.href='printcolor_strong'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="strong2" onclick=
+"location.href='printcolor_strong2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="strong3" onclick=
+"location.href='printcolor_strong3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="vivid" onclick=
+"location.href='printcolor_vivid'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="vivid2" onclick=
+"location.href='printcolor_vivid2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="vivid3" onclick=
+"location.href='printcolor_vivid3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="grayish" onclick=
+"location.href='printcolor_grayish'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="grayish2" onclick=
+"location.href='printcolor_grayish2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="grayish3" onclick=
+"location.href='printcolor_grayish3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="dull" onclick=
+"location.href='printcolor_dull'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="dull2" onclick=
+"location.href='printcolor_dull2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="dull3" onclick=
+"location.href='printcolor_dull3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="deep" onclick=
+"location.href='printcolor_deep'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="deep2" onclick=
+"location.href='printcolor_deep2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="deep3" onclick=
+"location.href='printcolor_deep3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="darkGray" onclick=
+"location.href='printcolor_darkGrayish'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="darkGray2" onclick=
+"location.href='printcolor_darkGrayish2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="darkGray3" onclick=
+"location.href='printcolor_darkGrayish3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+<input type="button" value="dark" onclick=
+"location.href='printcolor_dark'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="dark2" onclick=
+"location.href='printcolor_dark2'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+<input type="button" value="dark3" onclick=
+"location.href='printcolor_dark3'"style="
+    padding-left: 0px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 10px;
+"/>
+
+
+
+      </div>
+
+
+      <div id="right-top">
+        <div id="weather">
+          <h2>Today's weather</h2>
+          <div id="TempAndIcon"> <!-- 온도 & 날씨아이콘 -->
+            <div id="temp"></div>
+            <img src="" alt="" id="icon" width=70px>
+          </div>
+          <div id="description"></div> <!--날씨 설명-->
+        </div>
+        </div>
+      </div>
+      <script src="/script/weather.js" charset="utf-8"></script>
+      <script src="/script/calendar.js" charset="utf-8"></script>
+      <script src="/script/clock.js" charset="utf-8"></script>
+
+<!--       <script type="text/javascript">
+            //카운트 시작 숫자
+            var count = 5;
+            //카운트다운함수
+            var countdown = setInterval(function(){
+            //해당 태그에 아래 내용을 출력
+            $("p.countdown").html("<b><font color='white' size='100em'>"
+            + count + "</font><b><p>초 후 이동 합니다.</p>");
+                //0초면 초기화 후 이동되는 사이트
+                if (count == 0) {
+                    clearInterval(countdown);
+                    location.href="http://localhost:8000/printcolors";
+                    }
+                count--;//카운트 감소
+            }, 1000);
+      </script> -->
+
+	  </script>
+  </body>
+</html>
